@@ -1,0 +1,39 @@
+body{
+    color: black;
+    font-family: monospace;
+}
+.title{
+    background-color:#FFD0EC;
+    text-align: center;
+    margin: 10px;
+}
+
+.cat-img{
+    text-align: center;
+}
+
+.inner{
+    border: 2px solid gray;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #FAE7F3 ;
+}
+
+.container{
+    margin-top: 10px;
+    /* display: flex;  eta dile pashapashi hoy*/
+    display: grid;/* you need to define template */
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+
+.box-1{
+    border: 2px solid gray;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #D63484;
+
+}
